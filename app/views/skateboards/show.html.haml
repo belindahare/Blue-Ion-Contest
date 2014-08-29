@@ -19,9 +19,9 @@
         %br
           = @skateboard.retail_price
 
--if current_user
-  %br
-  %br
-  = link_to "Edit", edit_skateboard_path(@skateboard)
-  %br
-  = link_to "Remove From Inventory", skateboard_path(@skateboard), method: :delete
+      -if current_user
+        %br
+        %br
+          = link_to "Edit", edit_skateboard_path(@skateboard)
+        %br
+          = link_to "Remove From Inventory", skateboard_path(@skateboard), method: :delete
