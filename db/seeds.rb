@@ -7,7 +7,7 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 u = User.new(
-  email: "rick@blueion.com"
+  email: "rick@blueion.com",
   password: "password"
   )
 
