@@ -6,6 +6,9 @@ body{
 .small-6.columns.admin_login_link{
   float:right;
 }
+td.steve{
+  background-color: black
+}
 ul.skateboard_info{
   margin: 0px;
 }
