@@ -4,13 +4,21 @@
 
 ADMIN LOGIN:
 
-username:  rick@blueion.com
-password:  rubyrocks
+username:  rich@blueion.com
+password:  password
 
 This will allow the user to add new skateboards to inventory, edit current inventory, and delete inventory.  
 
 
+Blue Ion invited all students at The Iron Yard to take their psd file and turn it into a website.  It was geared towards the front-end class and no back end development was required.
+The project a major source of my front-end education and also my first time using foundation 
 
+This is was my submission- it includes the ability to add/edit/delete inventory.
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+To run locally:
+  clone the repository
+  bundle install
+  rake db:create db:migrate
+  start server
+  
+The deployed version can be found at:   belinda-blue-ion.herokuapp.com
