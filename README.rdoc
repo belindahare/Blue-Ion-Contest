@@ -11,7 +11,7 @@ This will allow the user to add new skateboards to inventory, edit current inven
 
 
 Blue Ion invited all students at The Iron Yard to take their psd file and turn it into a website.  It was geared towards the front-end class and no back end development was required.
-The project a major source of my front-end education and also my first time using foundation 
+The project a major source of my front-end education and also my first time using foundation and the gem devise
 
 This is was my submission- it includes the ability to add/edit/delete inventory.
 
@@ -20,5 +20,11 @@ To run locally:
   bundle install
   rake db:create db:migrate
   start server
+  
+Technologies Used:
+Ruby on Rails
+Bootstrap
+HTML
+CSS
   
 The deployed version can be found at:   belinda-blue-ion.herokuapp.com
